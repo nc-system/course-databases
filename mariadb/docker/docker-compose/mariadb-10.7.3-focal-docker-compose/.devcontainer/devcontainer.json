@@ -1,0 +1,19 @@
+
+{
+    "name": "NC Container MariaDB for Developer",
+    //"dockerFile": "Dockerfile",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "mariadb",
+    "workspaceFolder": "/mariadb",
+    "shutdownAction": "stopCompose",
+
+    "settings": {
+        //"terminal.integrated.shell.linux": "/bin/bash",
+        "editor.fontSize": 14,
+        "workbench.colorTheme": "Dobri Next -A05- Jaguar",
+        "workbench.iconTheme": "material-icon-theme"
+    },
+
+    "extensions": []
+}
+

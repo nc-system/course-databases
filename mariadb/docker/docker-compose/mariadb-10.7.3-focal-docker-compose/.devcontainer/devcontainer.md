@@ -1,7 +1,7 @@
 // Ver extensiones instaladas
 // code --list-extensions
 
-// Config only 1 Container - Extensions
+// Config only 1 image - Extensions
 {
     "name": "NC Gases",
     
@@ -90,61 +90,36 @@
     },
 
     "extensions": [
-        "13xforever.language-x86-64-assembly",
-        "2gua.rainbow-brackets",
-        "AbhijoyBasak.nestjs-files",
-        "ashinzekene.nestjs",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
         "cirlorm.mobileview",
-        "cschlosser.doxdocgen",
+        "CoenraadS.bracket-pair-colorizer",
         "cweijan.vscode-database-client2",
-        "denoland.vscode-deno",
-        "DigitalBrainstem.javascript-ejs-support",
-        "donjayamanne.githistory",
+        //"denoland.vscode-deno",
         "dsznajder.es7-react-js-snippets",
-        "eamodio.gitlens",
         "eg2.vscode-npm-script",
         "esbenp.prettier-vscode",
-        "FallenMax.mithril-emmet",
         "formulahendry.auto-close-tag",
         "formulahendry.auto-rename-tag",
-        "formulahendry.code-runner",
         "Gruntfuggly.todo-tree",
-        "jeff-hykin.better-cpp-syntax",
         "jundat95.react-native-snippet",
-        "lit.lit-snippets",
-        "mathiasfrohlich.Kotlin",
-        "mhutchie.git-graph",
         "ms-azuretools.vscode-docker",
         "ms-vscode-remote.remote-containers",
         "ms-vscode-remote.remote-ssh",
         "ms-vscode-remote.remote-ssh-edit",
-        "ms-vscode.cmake-tools",
-        "ms-vscode.cpptools",
-        "ms-vscode.cpptools-extension-pack",
-        "ms-vscode.cpptools-themes",
         "ms-vscode.vscode-typescript-next",
-        "ms-vsliveshare.vsliveshare",
-        "ms-vsliveshare.vsliveshare-audio",
-        "ms-vsliveshare.vsliveshare-pack",
         "msjsdiag.vscode-react-native",
         "naumovs.color-highlight",
         "Orta.vscode-jest",
         "PKief.material-icon-theme",
-        "rangav.vscode-thunder-client",
-        "RapidAPI.vscode-rapidapi-client",
         "ritwickdey.LiveServer",
         "sldobri.bunker",
         "steoates.autoimport",
         "styled-components.vscode-styled-components",
-        "svelte.svelte-vscode",
         "syler.sass-indented",
-        "TabNine.tabnine-vscode",
+        //"TabNine.tabnine-vscode",
         "tomoki1207.pdf",
-        "twxs.cmake",
-        "usernamehw.errorlens",
-        "Wscats.eno"
+        //"Wscats.eno"
     ]
 }
 

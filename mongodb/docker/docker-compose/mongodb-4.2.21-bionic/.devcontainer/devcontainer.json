@@ -1,0 +1,19 @@
+
+{
+    "name": "NC Container MongoDB for Developer",
+    //"dockerFile": "Dockerfile",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "mongodb",
+    "workspaceFolder": "/mongodb",
+    "shutdownAction": "stopCompose",
+
+    "settings": {
+        //"terminal.integrated.shell.linux": "/bin/bash",
+        "editor.fontSize": 14,
+        "workbench.colorTheme": "Dobri Next -A05- Jaguar",
+        "workbench.iconTheme": "material-icon-theme"
+    },
+
+    "extensions": []
+}
+
