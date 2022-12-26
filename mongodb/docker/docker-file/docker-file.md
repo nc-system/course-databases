@@ -1,3 +1,5 @@
 
 
 FROM node:16.17.0-bullseye
+
+EXPOSE 27017
