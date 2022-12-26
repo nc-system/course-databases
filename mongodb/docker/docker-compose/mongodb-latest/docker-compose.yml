@@ -1,0 +1,19 @@
+
+version: "3.8"
+
+services:
+
+  mongodb:
+    container_name: nc-container-db-mongodb-dev-01
+    image: mongo:latest
+    #restar: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=newsoftcomputer
+      - MONGO_INITDB_ROOT_PASSWORD=newsoftcomputer
+      # - PUID=1000
+      # - PGID=1000
+    ports:
+      - '27017:27017'
+    volumes:
+      - "./db:/data/db"
+      #- my-db:/var/lib/mariadb
