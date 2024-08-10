@@ -10,3 +10,7 @@
 
 
 ## Delete tables
+
+    sqlite> DROP TABLE nametable;
+    
+    sqlite> DROP TABLE IF EXISTS nametable;
