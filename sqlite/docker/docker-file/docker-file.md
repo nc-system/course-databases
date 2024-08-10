@@ -1,4 +1,0 @@
-
-
-FROM linuxserver/sqlitebrowser:latest
-
