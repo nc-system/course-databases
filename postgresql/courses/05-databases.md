@@ -26,3 +26,7 @@
     message: 
       psql (16.4)
       Type "help" for help.
+
+## Connect to Databases
+
+  postgres@server:~$ \c mydb
