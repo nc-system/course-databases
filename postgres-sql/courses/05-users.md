@@ -1,5 +1,12 @@
 # USERS
 
+## Access to shell PostgreSQL
+
+$ sudo -i -u postgres
+
+- Access how root
+  postgres@server:~$ psql
+
 ## Create users
 
   $ - CREATE USER tu_usuario WITH PASSWORD 'tu_contraseña';
